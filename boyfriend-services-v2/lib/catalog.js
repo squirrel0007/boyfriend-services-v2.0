@@ -1,0 +1,43 @@
+export const categories = [
+  { id: 'wellness', label: 'Wellness & intimacy', emoji: '♡' },
+  { id: 'practical', label: 'Handy boyfriend', emoji: '✦' },
+  { id: 'dates', label: 'Dates & romance', emoji: '☾' },
+  { id: 'home', label: 'Home & errands', emoji: '⌂' },
+  { id: 'special', label: 'Something special', emoji: '★' },
+];
+export const services = [
+  {id:'classic-massage',name:'Classic Massage',category:'wellness',description:'A relaxing massage, made just for you.',duration:'60 min'},
+  {id:'naughty-massage',name:'Naughty Massage',category:'wellness',description:'A more playful, private massage.',duration:'60 min'},
+  {id:'full-service',name:'Full Service',category:'wellness',description:'A private, intimate appointment.',duration:'Flexible'},
+  {id:'cuddle-therapy',name:'Cuddle Therapy',category:'wellness',description:'A warm, uninterrupted cuddle session.',duration:'45 min'},
+  {id:'shower-together',name:'Shower Together',category:'wellness',description:'Quality time and a shower together.',duration:'30 min'},
+  {id:'oral-sex',name:'Oral Sex',category:'wellness',description:'Private time together.',duration:'Flexible'},
+  {id:'anal-sex',name:'Anal Sex',category:'wellness',description:'Private time together, by mutual agreement.',duration:'Flexible'},
+  {id:'lift-something-heavy',name:'Lift Something Heavy',category:'practical',description:'Moving, carrying, or shifting the awkward stuff.',duration:'As needed'},
+  {id:'gardening-yard-work',name:'Gardening & Yard Work',category:'practical',description:'Help keeping the yard looking its best.',duration:'As needed'},
+  {id:'car-wash-detail',name:'Car Wash & Detail',category:'practical',description:'A tidy car, inside and out.',duration:'90 min'},
+  {id:'chauffeur-service',name:'Chauffeur Service',category:'practical',description:'Your own personal driver.',duration:'As needed'},
+  {id:'quiet-night-in',name:'Quiet Night In',category:'dates',description:'No plans, no pressure, just us.',duration:'Evening'},
+  {id:'romantic-dinner-date',name:'Romantic Dinner Date',category:'dates',description:'A dinner date organised for two.',duration:'Evening'},
+  {id:'breakfast-in-bed',name:'Breakfast in Bed',category:'dates',description:'Start the morning with something lovely.',duration:'Morning'},
+  {id:'weekend-away',name:'Weekend Away',category:'dates',description:'Escape for a little time together.',duration:'Weekend'},
+  {id:'surprise-date',name:'Surprise Date',category:'dates',description:'Leave the planning and surprises to me.',duration:'Flexible'},
+  {id:'swingers-party',name:'Swingers Party',category:'dates',description:'An event together, subject to both partners agreeing.',duration:'Evening'},
+  {id:'cook-dinner',name:'Cook Dinner',category:'home',description:'Dinner prepared, served, and enjoyed.',duration:'Evening'},
+  {id:'house-cleaning',name:'House Cleaning',category:'home',description:'A little help around the house.',duration:'As needed'},
+  {id:'laundry-folding',name:'Laundry & Folding',category:'home',description:'Wash, fold and put things away.',duration:'As needed'},
+  {id:'grocery-run',name:'Grocery Run',category:'home',description:'Groceries picked up and brought home.',duration:'As needed'},
+  {id:'coffee-delivery',name:'Coffee Delivery',category:'home',description:'Your favourite coffee, delivered.',duration:'Quick visit'},
+  {id:'run-errand',name:'Run an Errand',category:'home',description:'That task you can cross off the list.',duration:'As needed'},
+  {id:'emergency-cuddle',name:'Emergency Cuddle Callout',category:'special',description:'A cuddle when it is especially needed.',duration:'Flexible'},
+  {id:'bad-day-rescue',name:'Bad Day Rescue Package',category:'special',description:'A little extra care after a hard day.',duration:'Flexible'},
+  {id:'personal-chauffeur-evening',name:'Personal Chauffeur for the Evening',category:'special',description:'Your transport sorted for the whole evening.',duration:'Evening'},
+  {id:'whole-day-pampering',name:'Whole Day of Pampering',category:'special',description:'A whole day dedicated to looking after you.',duration:'Full day'},
+  {id:'sarahs-choice',name:'Sarah’s Choice',category:'special',description:'Choose anything you would like to request.',duration:'Flexible'},
+];
+export const addons = [
+ 'Extended session (+30 minutes)', 'Fingering', 'Oral sex', 'Full service upgrade', 'Shower together',
+ 'Extra cuddles', 'Dinner included', 'Dessert included', 'Surprise destination', 'Overnight stay',
+ 'Breakfast included', 'Priority scheduling', 'Additional task', 'Materials supplied', 'Clean-up included',
+ 'Coffee delivery', 'Extended duration', 'Custom itinerary', 'Transport included', 'Surprise extras'
+];
